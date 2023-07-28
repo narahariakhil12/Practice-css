@@ -1,13 +1,30 @@
-.normal{
-    font-style: normal; /*italic*/
-    font-weight:600;/*bold*/
-    /*font-variant: small-caps;*/
-}
-.em{
-    font-size:2.5em;
+a:link{
+color: yellowgreen;
+font-size: 2em;
+text-decoration: none;
+background-color: bisque;
+border: 3px solid pink;
+padding: 10px 5px ;
+text-align: center;
+display: inline-block;
+cursor: progress;
 }
 
-.view{
-    font-size: 10vh;
-    text-shadow: 3px 3px 3px yellow;
+a:visited{
+    color: rgb(205, 226, 43);
+    text-decoration: none;
+    
 }
+a:hover{
+    color: aquamarine;
+    font-size: 5em;
+    text-decoration: underline;
+}
+a:active{
+    color: brown;
+    font-size: 3em;
+    background-color: cadetblue;
+}
+/*Order should be always hover should come after
+link and visited and active always after 
+hover*/
