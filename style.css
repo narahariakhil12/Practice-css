@@ -1,25 +1,13 @@
-table, th, td {
-    border: 2px solid;
-    border-collapse: collapse;
-    padding: 5px 3px;
-    text-align: right;
-}
-table{
-    width: 100%;
+
+.a{
+    width: 500px;
+    margin: auto;
+    border: 5px solid green;
     margin-bottom: 10px;
 }
-th{
-    height: 30px;
-    vertical-align:text-top;
+.b{
+    max-width: 500px;
+    margin: auto;
+    border: 5px solid green;
+    margin-top: 20px;
 }
-/* By default, the content of <th> elements are center-aligned and the content of <td> elements are left-aligned.
-By default, the vertical alignment of the content in a table is middle (for both <th> and <td> elements). */
-tr:hover{
-    background-color: rgb(222, 182, 52);
-    font-size: 1.5rem;
-}
-
-tr:nth-child(even){
-    background-color: #f2f2f2;
-}
-/* Add a container element (like <div>) with overflow-x:auto around the <table> element to make it responsive: */
