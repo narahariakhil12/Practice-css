@@ -1,21 +1,25 @@
-.unordered{
-    list-style-type : square;
-    /* list-style-type: none; */
-    background-color: azure;
-    border: 2px dotted pink;
-
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 5px 3px;
+    text-align: right;
+}
+table{
+    width: 100%;
+    margin-bottom: 10px;
+}
+th{
+    height: 30px;
+    vertical-align:text-top;
+}
+/* By default, the content of <th> elements are center-aligned and the content of <td> elements are left-aligned.
+By default, the vertical alignment of the content in a table is middle (for both <th> and <td> elements). */
+tr:hover{
+    background-color: rgb(222, 182, 52);
+    font-size: 1.5rem;
 }
 
-.ordered{
-    list-style-type: upper-roman;
-    /* list-style-position: inside; */
-    background-color: bisque;
-    border: 2px dotted pink;
+tr:nth-child(even){
+    background-color: #f2f2f2;
 }
-li{
-    color:chocolate;
-    background-color: coral;
-    border: 1px solid black;
-    padding: 5px 2px;
-    text-align: center;
-}
+/* Add a container element (like <div>) with overflow-x:auto around the <table> element to make it responsive: */
