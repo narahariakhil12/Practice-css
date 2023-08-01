@@ -1,20 +1,25 @@
-img{
+.a{
+    border: 1px solid black;
+    background-color: beige;
+    height: 20px; 
+    width: 20px;
+    padding: 10px;
+}
+/* The height and width properties will not work for the inline elements and span is a inline element by default  */
+.b{
+    display: block;
+    border: 1px solid black;
+    background-color: beige;
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+}
+.c{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: beige;
+    padding: 10px;
     height: 50px;
-    width: 50px;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-}
-.one img{
-    float: left;
-}
-.two img{
-    float: right;
-}
-
-.three img{
-    float: left;
-}
-p{
-    clear: both;
-    overflow: auto;
+    width: 100px;
+    margin: 10px;
 }
